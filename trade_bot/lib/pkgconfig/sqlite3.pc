@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/x/Desktop/algo_project/trade_bot
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.50.4
+Libs: -L${libdir} -lsqlite3
+Libs.private:  -lz   -Wl,-rpath,/Users/x/Desktop/algo_project/trade_bot/lib -L/Users/x/Desktop/algo_project/trade_bot/lib -licui18n -licuuc -licudata
+Cflags: -I${includedir}

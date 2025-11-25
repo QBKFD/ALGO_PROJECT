@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/Users/x/Desktop/algo_project/trade_bot/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
